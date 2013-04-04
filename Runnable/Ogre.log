@@ -1,0 +1,852 @@
+05:38:38: Creating resource group General
+05:38:38: Creating resource group Internal
+05:38:38: Creating resource group Autodetect
+05:38:38: SceneManagerFactory for type 'DefaultSceneManager' registered.
+05:38:38: Registering ResourceManager for type Material
+05:38:38: Registering ResourceManager for type Mesh
+05:38:38: Registering ResourceManager for type Skeleton
+05:38:38: MovableObjectFactory for type 'ParticleSystem' registered.
+05:38:38: OverlayElementFactory for type Panel registered.
+05:38:38: OverlayElementFactory for type BorderPanel registered.
+05:38:38: OverlayElementFactory for type TextArea registered.
+05:38:38: Registering ResourceManager for type Font
+05:38:38: ArchiveFactory for archive type FileSystem registered.
+05:38:38: ArchiveFactory for archive type Zip registered.
+05:38:38: DDS codec registering
+05:38:38: FreeImage version: 3.13.1
+05:38:38: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+05:38:38: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+05:38:38: Registering ResourceManager for type HighLevelGpuProgram
+05:38:38: Registering ResourceManager for type Compositor
+05:38:38: MovableObjectFactory for type 'Entity' registered.
+05:38:38: MovableObjectFactory for type 'Light' registered.
+05:38:38: MovableObjectFactory for type 'BillboardSet' registered.
+05:38:38: MovableObjectFactory for type 'ManualObject' registered.
+05:38:38: MovableObjectFactory for type 'BillboardChain' registered.
+05:38:38: MovableObjectFactory for type 'RibbonTrail' registered.
+05:38:38: Loading library .\RenderSystem_Direct3D9_d
+05:38:38: Installing plugin: D3D9 RenderSystem
+05:38:38: D3D9 : Direct3D9 Rendering Subsystem created.
+05:38:38: D3D9: Driver Detection Starts
+05:38:38: D3D9: Driver Detection Ends
+05:38:38: Plugin successfully installed
+05:38:38: Loading library .\RenderSystem_GL_d
+05:38:38: Installing plugin: GL RenderSystem
+05:38:38: OpenGL Rendering Subsystem created.
+05:38:39: Plugin successfully installed
+05:38:39: Loading library .\Plugin_ParticleFX_d
+05:38:39: Installing plugin: ParticleFX
+05:38:39: Particle Emitter Type 'Point' registered
+05:38:39: Particle Emitter Type 'Box' registered
+05:38:39: Particle Emitter Type 'Ellipsoid' registered
+05:38:39: Particle Emitter Type 'Cylinder' registered
+05:38:39: Particle Emitter Type 'Ring' registered
+05:38:39: Particle Emitter Type 'HollowEllipsoid' registered
+05:38:39: Particle Affector Type 'LinearForce' registered
+05:38:39: Particle Affector Type 'ColourFader' registered
+05:38:39: Particle Affector Type 'ColourFader2' registered
+05:38:39: Particle Affector Type 'ColourImage' registered
+05:38:39: Particle Affector Type 'ColourInterpolator' registered
+05:38:39: Particle Affector Type 'Scaler' registered
+05:38:39: Particle Affector Type 'Rotator' registered
+05:38:39: Particle Affector Type 'DirectionRandomiser' registered
+05:38:39: Particle Affector Type 'DeflectorPlane' registered
+05:38:39: Plugin successfully installed
+05:38:39: Loading library .\Plugin_BSPSceneManager_d
+05:38:39: Installing plugin: BSP Scene Manager
+05:38:39: Plugin successfully installed
+05:38:39: Loading library .\Plugin_CgProgramManager_d
+05:38:39: Installing plugin: Cg Program Manager
+05:38:39: Plugin successfully installed
+05:38:39: Loading library .\Plugin_PCZSceneManager_d
+05:38:39: Installing plugin: Portal Connected Zone Scene Manager
+05:38:39: PCZone Factory Type 'ZoneType_Default' registered
+05:38:39: Plugin successfully installed
+05:38:39: Loading library .\Plugin_OctreeZone_d
+05:38:39: Installing plugin: Octree Zone Factory
+05:38:39: Plugin successfully installed
+05:38:39: Loading library .\Plugin_OctreeSceneManager_d
+05:38:39: Installing plugin: Octree & Terrain Scene Manager
+05:38:39: Plugin successfully installed
+05:38:39: *-*-* OGRE Initialising
+05:38:39: *-*-* Version 1.7.3 (Cthugha)
+05:38:39: Creating resource group Fonts
+05:38:39: Added resource location 'Content/datafiles/fonts' of type 'FileSystem' to resource group 'Fonts'
+05:38:39: Added resource location 'Content' of type 'FileSystem' to resource group 'General'
+05:38:39: Creating resource group Imagesets
+05:38:39: Added resource location 'Content/datafiles/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+05:38:39: Creating resource group Layouts
+05:38:39: Added resource location 'Content/datafiles/layouts' of type 'FileSystem' to resource group 'Layouts'
+05:38:39: Creating resource group LookNFeel
+05:38:39: Added resource location 'Content/datafiles/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+05:38:39: Creating resource group Popular
+05:38:39: Added resource location 'Content/fonts' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/materials/programs' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/materials/scripts' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/materials/textures' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/materials/textures/nvidia' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/models' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/sounds' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/particle' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/DeferredShadingMedia' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/PCZAppMedia' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/RTShaderLib' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/RTShaderLib/materials' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/scene' of type 'FileSystem' to resource group 'Popular'
+05:38:39: Added resource location 'Content/packs/skybox.zip' of type 'Zip' to resource group 'Popular'
+05:38:39: Creating resource group Schemes
+05:38:39: Added resource location 'Content/datafiles/schemes' of type 'FileSystem' to resource group 'Schemes'
+05:38:39: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+05:38:39: D3D9 : RenderSystem Option: FSAA = 0
+05:38:39: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+05:38:39: D3D9 : RenderSystem Option: Full Screen = No
+05:38:39: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-NVIDIA GeForce GTX 260M
+05:38:39: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+05:38:39: D3D9 : RenderSystem Option: VSync = No
+05:38:39: D3D9 : RenderSystem Option: VSync Interval = 1
+05:38:39: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+05:38:39: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+05:38:40: CPU Identifier & Features
+05:38:40: -------------------------
+05:38:40:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7 CPU       Q 720  @ 1.60GHz
+05:38:40:  *      SSE: yes
+05:38:40:  *     SSE2: yes
+05:38:40:  *     SSE3: yes
+05:38:40:  *      MMX: yes
+05:38:40:  *   MMXEXT: yes
+05:38:40:  *    3DNOW: no
+05:38:40:  * 3DNOWEXT: no
+05:38:40:  *     CMOV: yes
+05:38:40:  *      TSC: yes
+05:38:40:  *      FPU: yes
+05:38:40:  *      PRO: yes
+05:38:40:  *       HT: no
+05:38:40: -------------------------
+05:38:40: D3D9 : Subsystem Initialising
+05:38:40: Registering ResourceManager for type Texture
+05:38:40: Registering ResourceManager for type GpuProgram
+05:38:40: D3D9RenderSystem::_createRenderWindow "OGRE Render Window", 800x600 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=32 gamma=false monitorIndex=0 useNVPerfHUD=false vsync=false vsyncInterval=1 
+05:38:40: D3D9 : Created D3D9 Rendering Window 'OGRE Render Window' : 800x600, 32bpp
+05:38:40: D3D9 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT16_RGB
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT16_RGBA
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT16_R
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT32_R
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT16_GR
+05:38:40: D3D9: Vertex texture format supported - PF_FLOAT32_GR
+05:38:40: RenderSystem capabilities
+05:38:40: -------------------------
+05:38:40: RenderSystem Name: Direct3D9 Rendering Subsystem
+05:38:40: GPU Vendor: nvidia
+05:38:40: Device Name: Monitor-1-NVIDIA GeForce GTX 260M
+05:38:40: Driver Version: 8.17.12.9610
+05:38:40:  * Fixed function pipeline: yes
+05:38:40:  * Hardware generation of mipmaps: yes
+05:38:40:  * Texture blending: yes
+05:38:40:  * Anisotropic texture filtering: yes
+05:38:40:  * Dot product texture operation: yes
+05:38:40:  * Cube mapping: yes
+05:38:40:  * Hardware stencil buffer: yes
+05:38:40:    - Stencil depth: 8
+05:38:40:    - Two sided stencil support: yes
+05:38:40:    - Wrap stencil values: yes
+05:38:40:  * Hardware vertex / index buffers: yes
+05:38:40:  * Vertex programs: yes
+05:38:40:  * Number of floating-point constants for vertex programs: 256
+05:38:40:  * Number of integer constants for vertex programs: 16
+05:38:40:  * Number of boolean constants for vertex programs: 16
+05:38:40:  * Fragment programs: yes
+05:38:40:  * Number of floating-point constants for fragment programs: 224
+05:38:40:  * Number of integer constants for fragment programs: 16
+05:38:40:  * Number of boolean constants for fragment programs: 16
+05:38:40:  * Geometry programs: no
+05:38:40:  * Number of floating-point constants for geometry programs: 0
+05:38:40:  * Number of integer constants for geometry programs: 8
+05:38:40:  * Number of boolean constants for geometry programs: 0
+05:38:40:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+05:38:40:  * Texture Compression: yes
+05:38:40:    - DXT: yes
+05:38:40:    - VTC: no
+05:38:40:    - PVRTC: no
+05:38:40:  * Scissor Rectangle: yes
+05:38:40:  * Hardware Occlusion Query: yes
+05:38:40:  * User clip planes: yes
+05:38:40:  * VET_UBYTE4 vertex element type: yes
+05:38:40:  * Infinite far plane projection: yes
+05:38:40:  * Hardware render-to-texture: yes
+05:38:40:  * Floating point textures: yes
+05:38:40:  * Non-power-of-two textures: yes
+05:38:40:  * Volume textures: yes
+05:38:40:  * Multiple Render Targets: 4
+05:38:40:    - With different bit depths: yes
+05:38:40:  * Point Sprites: yes
+05:38:40:  * Extended point parameters: yes
+05:38:40:  * Max Point Size: 10
+05:38:40:  * Vertex texture fetch: yes
+05:38:40:  * Number of world matrices: 0
+05:38:40:  * Number of texture units: 8
+05:38:40:  * Stencil buffer depth: 8
+05:38:40:  * Number of vertex blend matrices: 0
+05:38:40:    - Max vertex textures: 4
+05:38:40:    - Vertex textures shared: no
+05:38:40:  * Render to Vertex Buffer : no
+05:38:40:  * DirectX per stage constants: yes
+05:38:40: ***************************************
+05:38:40: *** D3D9 : Subsystem Initialised OK ***
+05:38:40: ***************************************
+05:38:40: DefaultWorkQueue('Root') initialising on thread 003EAFD0.
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE1E8 starting.
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE218 starting.
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE2A8 starting.
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE2D8 starting.
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE308 starting.
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE248 starting.
+05:38:40: Particle Renderer Type 'billboard' registered
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE278 starting.
+05:38:40: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE338 starting.
+05:38:40: SceneManagerFactory for type 'BspSceneManager' registered.
+05:38:40: Registering ResourceManager for type BspLevel
+05:38:40: SceneManagerFactory for type 'PCZSceneManager' registered.
+05:38:40: MovableObjectFactory for type 'PCZLight' registered.
+05:38:40: MovableObjectFactory for type 'Portal' registered.
+05:38:40: MovableObjectFactory for type 'AntiPortal' registered.
+05:38:40: PCZone Factory Type 'ZoneType_Octree' registered
+05:38:40: PCZone Factory Type 'ZoneType_Terrain' registered
+05:38:40: SceneManagerFactory for type 'OctreeSceneManager' registered.
+05:38:40: SceneManagerFactory for type 'TerrainSceneManager' registered.
+05:38:40: Parsing scripts for resource group Autodetect
+05:38:40: Finished parsing scripts for resource group Autodetect
+05:38:40: Parsing scripts for resource group Fonts
+05:38:40: Finished parsing scripts for resource group Fonts
+05:38:40: Parsing scripts for resource group General
+05:38:40: Finished parsing scripts for resource group General
+05:38:40: Parsing scripts for resource group Imagesets
+05:38:40: Finished parsing scripts for resource group Imagesets
+05:38:40: Parsing scripts for resource group Internal
+05:38:40: Finished parsing scripts for resource group Internal
+05:38:40: Parsing scripts for resource group Layouts
+05:38:40: Finished parsing scripts for resource group Layouts
+05:38:40: Parsing scripts for resource group LookNFeel
+05:38:40: Finished parsing scripts for resource group LookNFeel
+05:38:40: Parsing scripts for resource group Popular
+05:38:40: Parsing script Examples.program
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/BasicVertexPrograms/AmbientOneTexture encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(16): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(17): setting of constant failed
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/BasicVertexPrograms/AmbientOneTextureHLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(30): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(31): setting of constant failed
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/HardwareSkinningTwoWeightsHLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(124): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(125): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(126): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(127): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(128): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(129): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(130): setting of constant failed
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/HardwareSkinningFourWeights encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(144): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(145): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(146): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(147): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(148): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(149): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(150): setting of constant failed
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/HardwareMorphAnimation encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(164): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(165): setting of constant failed
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/HardwarePoseAnimation encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(178): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples.program(179): setting of constant failed
+05:38:40: Parsing script background.material
+05:38:40: Parsing script barrier1.material
+05:38:40: Parsing script Bullet.material
+05:38:40: Parsing script Examples-Advanced.material
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/CelShadingVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples-Advanced.material(12): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples-Advanced.material(13): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples-Advanced.material(14): setting of constant failed
+05:38:40: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:40: Compiler error: invalid parameters in Examples-Advanced.material(15): setting of constant failed
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Ogre/CelShadingFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_CelShading.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/BumpMapVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/BumpMapFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/BumpMapVPShadowRcv encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/BumpMapFPShadowRcv encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/BumpMapVPSpecular encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/BumpMapFPSpecular encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/BumpMapVPTangentParity encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_BumpMapping.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/TexProjectionVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/TexProjectionFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Projection.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/FresnelRefractReflectVP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/FresnelRefractReflectFP encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: High-level program Examples/FresnelRefractReflectVPold encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Fresnel.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:40: Parsing script Examples.material
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/MorningSkyBoxHDRfp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/MorningCubeMapHDRfp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource hdr.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Ogre/HardwareSkinningOneWeight encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Ogre/HardwareSkinningOneWeightShadowCaster encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(835): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(837): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(839): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(840): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(841): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(843): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverTexVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(855): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(856): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverAmbientVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(867): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(868): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(869): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverAmbientFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverCasterVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(899): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(900): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(901): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverCasterFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverReceiverVp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(922): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(923): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(924): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(926): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(928): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(929): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(931): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/GrassWaverReceiverFp encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Grass.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(945): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(946): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(947): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Ogre/HardwareSkinningTwoWeightsShadowCasterHLSL encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.hlsl in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(1624): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(1625): setting of constant failed
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(1626): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/ShowTangents_v encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(1696): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/ShowNormals_v encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(2:InvalidParametersException): Named constants have not been initialised, perhaps a compile error. in GpuProgramParameters::_findNamedConstantDefinition at ..\..\..\..\OgreMain\src\OgreGpuProgramParams.cpp (line 1425)
+05:38:41: Compiler error: invalid parameters in Examples.material(1706): setting of constant failed
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/ShowUV_p encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: High-level program Examples/ShowUVdir3D encountered an error during loading and is thus not supported.
+OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Example_Basic.cg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:41: Parsing script factory.material
+05:38:41: Parsing script gasCan.material
+05:38:41: Parsing script healthy_bar.material
+05:38:41: Parsing script MyCube.material
+05:38:41: Parsing script MyTank.material
+05:38:41: Parsing script pBase.material
+05:38:41: Parsing script tankGUI.material
+05:38:41: Parsing script tree.material
+05:38:41: Parsing script 111.material
+05:38:41: Parsing script Bullet.material
+05:38:41: Parsing script HealthBonus.material
+05:38:41: Parsing script LandMine.material
+05:38:41: Parsing script LandMineBonus.material
+05:38:41: Parsing script MachineGun.material
+05:38:41: Parsing script MachineGunBonus.material
+05:38:41: Parsing script MyTank.material
+05:38:41: Parsing script rocket.material
+05:38:41: Parsing script TankBarrel.material
+05:38:41: Parsing script TankBarrelMachine.material
+05:38:41: Parsing script TankHead.material
+05:38:41: Parsing script emitted_emitter.particle
+05:38:41: Parsing script Examples-Water.particle
+05:38:41: Parsing script Examples.particle
+05:38:41: Parsing script smoke.particle
+05:38:41: Parsing script Examples.compositor
+05:38:41: Parsing script sample.fontdef
+05:38:41: Finished parsing scripts for resource group Popular
+05:38:41: Parsing scripts for resource group Schemes
+05:38:41: Finished parsing scripts for resource group Schemes
+05:38:41: Texture: _cegui_ogre_0: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+05:38:43: Texture: tank.jpg: Loading 1 faces(PF_R8G8B8,1024x768x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+05:38:44: Texture: healthy.png: Loading 1 faces(PF_A8R8G8B8,125x25x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,125x25x1.
+05:38:44: Texture: attack.jpg: Loading 1 faces(PF_R8G8B8,51x54x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,51x54x1.
+05:38:44: Texture: defence.jpg: Loading 1 faces(PF_R8G8B8,51x54x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,51x54x1.
+05:38:44: Texture: exp.png: Loading 1 faces(PF_A8R8G8B8,124x27x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,124x27x1.
+05:38:44: Font StarWarsusing texture size 512x512
+05:38:44: Info: Freetype returned null for character 35 in font StarWars
+05:38:44: Info: Freetype returned null for character 37 in font StarWars
+05:38:44: Info: Freetype returned null for character 38 in font StarWars
+05:38:44: Info: Freetype returned null for character 42 in font StarWars
+05:38:44: Info: Freetype returned null for character 43 in font StarWars
+05:38:44: Info: Freetype returned null for character 60 in font StarWars
+05:38:44: Info: Freetype returned null for character 62 in font StarWars
+05:38:44: Info: Freetype returned null for character 64 in font StarWars
+05:38:44: Info: Freetype returned null for character 94 in font StarWars
+05:38:44: Info: Freetype returned null for character 96 in font StarWars
+05:38:44: Info: Freetype returned null for character 126 in font StarWars
+05:38:44: Info: Freetype returned null for character 127 in font StarWars
+05:38:44: Info: Freetype returned null for character 128 in font StarWars
+05:38:44: Info: Freetype returned null for character 129 in font StarWars
+05:38:44: Info: Freetype returned null for character 130 in font StarWars
+05:38:44: Info: Freetype returned null for character 131 in font StarWars
+05:38:44: Info: Freetype returned null for character 132 in font StarWars
+05:38:44: Info: Freetype returned null for character 133 in font StarWars
+05:38:44: Info: Freetype returned null for character 134 in font StarWars
+05:38:44: Info: Freetype returned null for character 135 in font StarWars
+05:38:44: Info: Freetype returned null for character 136 in font StarWars
+05:38:44: Info: Freetype returned null for character 137 in font StarWars
+05:38:44: Info: Freetype returned null for character 138 in font StarWars
+05:38:44: Info: Freetype returned null for character 139 in font StarWars
+05:38:44: Info: Freetype returned null for character 140 in font StarWars
+05:38:44: Info: Freetype returned null for character 141 in font StarWars
+05:38:44: Info: Freetype returned null for character 142 in font StarWars
+05:38:44: Info: Freetype returned null for character 143 in font StarWars
+05:38:44: Info: Freetype returned null for character 144 in font StarWars
+05:38:44: Info: Freetype returned null for character 145 in font StarWars
+05:38:44: Info: Freetype returned null for character 146 in font StarWars
+05:38:44: Info: Freetype returned null for character 147 in font StarWars
+05:38:44: Info: Freetype returned null for character 148 in font StarWars
+05:38:44: Info: Freetype returned null for character 149 in font StarWars
+05:38:44: Info: Freetype returned null for character 150 in font StarWars
+05:38:44: Info: Freetype returned null for character 151 in font StarWars
+05:38:44: Info: Freetype returned null for character 152 in font StarWars
+05:38:44: Info: Freetype returned null for character 153 in font StarWars
+05:38:44: Info: Freetype returned null for character 154 in font StarWars
+05:38:44: Info: Freetype returned null for character 155 in font StarWars
+05:38:44: Info: Freetype returned null for character 156 in font StarWars
+05:38:44: Info: Freetype returned null for character 157 in font StarWars
+05:38:44: Info: Freetype returned null for character 158 in font StarWars
+05:38:44: Info: Freetype returned null for character 159 in font StarWars
+05:38:44: Info: Freetype returned null for character 160 in font StarWars
+05:38:44: Info: Freetype returned null for character 161 in font StarWars
+05:38:44: Info: Freetype returned null for character 162 in font StarWars
+05:38:44: Info: Freetype returned null for character 163 in font StarWars
+05:38:44: Info: Freetype returned null for character 164 in font StarWars
+05:38:44: Info: Freetype returned null for character 165 in font StarWars
+05:38:44: Info: Freetype returned null for character 166 in font StarWars
+05:38:44: Texture: StarWarsTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+05:38:44: Texture: _cegui_ogre_1: Loading 1 faces(PF_A8B8G8R8,256x256x1) with 0 generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+05:38:45: Texture: clouds.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+05:38:45: Mesh: Loading MyCube.mesh.
+05:38:45: WARNING: MyCube.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+05:38:45: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource MyCube.jpg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:45: Error loading texture MyCube.jpg. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource MyCube.jpg in resource group Popular or any other group. in ResourceGroupManager::openResource at ..\..\..\..\OgreMain\src\OgreResourceGroupManager.cpp (line 753)
+05:38:45: Mesh: Loading barrier1.mesh.
+05:38:45: WARNING: barrier1.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+05:38:45: Can't assign material  to SubEntity of BARRIER because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of BARRIER because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Mesh: Loading gasCan.mesh.
+05:38:45: WARNING: gasCan.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+05:38:45: Can't assign material  to SubEntity of GASCAN because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of GASCAN because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of GASCAN because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Mesh: Loading factory.mesh.
+05:38:45: WARNING: factory.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY0 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY1 because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Mesh: Loading pBase.mesh.
+05:38:45: WARNING: pBase.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of pBase because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Can't assign material  to SubEntity of FACTORY because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:45: Texture: rockwall.tga: Loading 1 faces(PF_R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+05:38:45: Mesh: Loading MyTank.mesh.
+05:38:45: Skeleton: Loading MyTank.skeleton
+05:38:45: Mesh: Loading TankHead.mesh.
+05:38:45: Skeleton: Loading TankHead.skeleton
+05:38:45: Mesh: Loading TankBarrel.mesh.
+05:38:45: Skeleton: Loading TankBarrel.skeleton
+05:38:45: Mesh: Loading TankBarrelMachine.mesh.
+05:38:45: Skeleton: Loading TankBarrelMachine.skeleton
+05:38:46: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+05:38:46: Mesh: Loading HealthBonus.mesh.
+05:38:46: Mesh: Loading tree.mesh.
+05:38:46: WARNING: tree.mesh is an older format ([MeshSerializer_v1.40]); you should upgrade it as soon as possible using the OgreMeshUpgrade tool.
+05:38:46: Can't assign material  to SubEntity of 1000000mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000000mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000000mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000000mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000000mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Mesh: Loading LandMineBonus.mesh.
+05:38:46: Can't assign material  to SubEntity of 1000001mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000001mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000001mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000001mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000001mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Mesh: Loading MachineGunBonus.mesh.
+05:38:46: Can't assign material  to SubEntity of 1000002mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000002mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000002mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000002mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000002mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000003mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000003mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000003mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000003mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000003mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000004mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000004mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000004mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000004mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000004mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000005mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000005mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000005mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000005mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000005mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000006mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000006mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000006mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000006mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000006mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000007mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000007mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000007mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000007mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000007mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000008mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000008mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000008mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000008mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000008mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000009mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000009mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000009mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000009mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:46: Can't assign material  to SubEntity of 1000009mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:47: Mesh: Loading Bullet.mesh.
+05:38:59: Can't assign material  to SubEntity of 1000010mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:59: Can't assign material  to SubEntity of 1000010mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:59: Can't assign material  to SubEntity of 1000010mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:59: Can't assign material  to SubEntity of 1000010mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:38:59: Can't assign material  to SubEntity of 1000010mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:29: Can't assign material  to SubEntity of 1000011mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:29: Can't assign material  to SubEntity of 1000011mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:29: Can't assign material  to SubEntity of 1000011mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:29: Can't assign material  to SubEntity of 1000011mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:29: Can't assign material  to SubEntity of 1000011mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:33: Can't assign material  to SubEntity of 1000012mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:33: Can't assign material  to SubEntity of 1000012mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:33: Can't assign material  to SubEntity of 1000012mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:33: Can't assign material  to SubEntity of 1000012mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:33: Can't assign material  to SubEntity of 1000012mainEntity because this Material does not exist. Have you forgotten to define it in a .material script?
+05:39:35: DefaultWorkQueue('Root') shutting down on thread 003EAFD0.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE2A8 stopped.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE278 stopped.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE248 stopped.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE218 stopped.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE308 stopped.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE338 stopped.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE2D8 stopped.
+05:39:35: DefaultWorkQueue('Root')::WorkerFunc - thread 003FE1E8 stopped.
+05:39:35: PCZone Factory Type 'ZoneType_Octree' unregistered
+05:39:35: PCZone Factory Type 'ZoneType_Terrain' unregistered
+05:39:35: Unregistering ResourceManager for type BspLevel
+05:39:35: *-*-* OGRE Shutdown
+05:39:35: Unregistering ResourceManager for type Compositor
+05:39:36: Unregistering ResourceManager for type Font
+05:39:36: Unregistering ResourceManager for type Skeleton
+05:39:36: Unregistering ResourceManager for type Mesh
+05:39:36: Unregistering ResourceManager for type HighLevelGpuProgram
+05:39:36: Uninstalling plugin: Octree & Terrain Scene Manager
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\Plugin_OctreeSceneManager_d
+05:39:36: Uninstalling plugin: Octree Zone Factory
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\Plugin_OctreeZone_d
+05:39:36: Uninstalling plugin: Portal Connected Zone Scene Manager
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\Plugin_PCZSceneManager_d
+05:39:36: Uninstalling plugin: Cg Program Manager
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\Plugin_CgProgramManager_d
+05:39:36: Uninstalling plugin: BSP Scene Manager
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\Plugin_BSPSceneManager_d
+05:39:36: Uninstalling plugin: ParticleFX
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\Plugin_ParticleFX_d
+05:39:36: Uninstalling plugin: GL RenderSystem
+05:39:36: *** Stopping Win32GL Subsystem ***
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\RenderSystem_GL_d
+05:39:36: Uninstalling plugin: D3D9 RenderSystem
+05:39:36: D3D9 device: 0x[0310B2A0] destroy. Releasing D3D9 texture: _cegui_ogre_0
+05:39:36: Released D3D9 texture: _cegui_ogre_0
+05:39:36: D3D9 device: 0x[0310B2A0] destroy. Releasing D3D9 texture: RTT
+05:39:36: Released D3D9 texture: RTT
+05:39:36: D3D9 device: 0x[0310B2A0] destroy. Releasing D3D9 texture: _cegui_ogre_1
+05:39:36: Released D3D9 texture: _cegui_ogre_1
+05:39:36: D3D9 : Shutting down cleanly.
+05:39:36: Unregistering ResourceManager for type Texture
+05:39:36: Unregistering ResourceManager for type GpuProgram
+05:39:36: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+05:39:36: Plugin successfully uninstalled
+05:39:36: Unloading library .\RenderSystem_Direct3D9_d
+05:39:36: Unregistering ResourceManager for type Material

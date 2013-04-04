@@ -1,0 +1,22 @@
+
+material Material#3
+{
+	technique Map#0
+	{
+		pass Map#1
+		{
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular vertexcolour 20
+
+			texture_unit Map#2
+			{
+				filtering linear linear linear
+			}
+		}
+
+	}
+
+}
+
+

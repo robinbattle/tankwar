@@ -1,0 +1,61 @@
+material healthy_bar
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture healthy.png
+             }
+       }
+    }
+}
+
+material exp_bar
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture exp.png
+             }
+       }
+    }
+}
+
+material defenceMode
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture defence.jpg
+             }
+       }
+    }
+}
+
+material attackMode
+{
+    technique
+    {
+       pass
+       {
+
+           texture_unit
+           {
+               texture attack.jpg
+             }
+       }
+    }
+}
+
+

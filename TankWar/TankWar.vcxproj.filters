@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\AIManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DotSceneLoader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinyxml\tinystr.cpp">
+      <Filter>Source\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinyxml\tinyxml.cpp">
+      <Filter>Source\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TankWarCamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TankWarListeners.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OgreTankWar.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TankWarSceneManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Tank.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Factory\TankFactory.cpp">
+      <Filter>Source\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Bullet.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Factory\BulletFactory.cpp">
+      <Filter>Source\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManagement\CollisionManager.cpp">
+      <Filter>Source\CollisionManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManagement\CollisionTools.cpp">
+      <Filter>Source\CollisionManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\BaseObject.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\SoundManager.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUIManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Item.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Factory\ItemFactory.cpp">
+      <Filter>Source\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\TankA.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\TankC.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\TankPlayer.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\TankB.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\ItemMachineGun.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\ItemLandMine.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\ItemHealth.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\BulletGeneral.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\BulletMissile.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\BulletPiercing.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\BulletRocket.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Tree.cpp">
+      <Filter>Source\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Factory\TreeFactory.cpp">
+      <Filter>Source\Factory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\AIManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Constants.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DotSceneLoader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\InputHandler.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\World.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\tinyxml\tinystr.h">
+      <Filter>Include\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\tinyxml\tinyxml.h">
+      <Filter>Include\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TankWarCamera.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\OgreTankWar.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TankWarListeners.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TankWarSceneManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\Tank.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Factory\TankFactory.h">
+      <Filter>Include\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\Bullet.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Factory\BulletFactory.h">
+      <Filter>Include\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CollisionManagement\CollisionManager.h">
+      <Filter>Include\CollisionManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CollisionManagement\CollisionTools.h">
+      <Filter>Include\CollisionManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\BaseObject.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\SoundManager.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fsbank.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fsbank_errors.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fmod.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fmod.hpp">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fmod_codec.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fmod_dsp.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fmod_errors.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fmod_memoryinfo.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Tools\fmod_output.h">
+      <Filter>Include\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GUIManager.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\Item.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Factory\ItemFactory.h">
+      <Filter>Include\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\TankA.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\TankPlayer.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\TankB.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\TankC.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\ItemLandMine.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\ItemHealth.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\ItemMachineGun.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\BulletGeneral.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\BulletMissile.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\BulletPiercing.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\BulletRocket.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Object\Tree.h">
+      <Filter>Include\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Factory\TreeFactory.h">
+      <Filter>Include\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{d03b336d-d20c-4601-b4e2-b3ee3499d1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{670d6d80-bf29-44dc-83c6-6bcd20cc773a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\tinyxml">
+      <UniqueIdentifier>{736401fe-2d4e-49f0-bed3-a774003d6c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\tinyxml">
+      <UniqueIdentifier>{6c896536-777a-47a8-aead-ca5dfbf51af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Factory">
+      <UniqueIdentifier>{915ac963-8427-4e9c-870f-b0c9e8585b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object">
+      <UniqueIdentifier>{f7624a0c-daad-41ca-b02e-f5f3fbf95ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Factory">
+      <UniqueIdentifier>{784ccff1-7505-49ff-be3c-b0236500e56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Object">
+      <UniqueIdentifier>{5d9dc73e-0ff9-4804-ae3e-4195dc521fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\CollisionManagement">
+      <UniqueIdentifier>{d1a4c497-cc8c-40f1-97be-2960140d2a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CollisionManagment">
+      <UniqueIdentifier>{53947e13-f5a2-4912-8979-a54ad1b68b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Tools">
+      <UniqueIdentifier>{6dafa7ec-0860-4cd9-b7d3-0cf1e3f30ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools">
+      <UniqueIdentifier>{dbe63701-1fe6-443f-b5cd-241225e4fd10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
